@@ -1,0 +1,20 @@
+#gameContainer {
+	width: 800px;
+	height: 600px;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 24, 0.5);
+	position: relative;
+	overflow: hidden;
+	border: solid 3px;
+}
+
+#player {
+	width: 38px;
+	height: 38px;
+	background-image: url('img_perso/stand_down.gif');
+	background-size: 100%;
+	background-position: center;
+	position: absolute;
+	z-index: 2;
+	transition-duration: 0.2s;
+}

@@ -1,0 +1,54 @@
+body
+{
+	margin:0;
+}
+   
+#navbar
+{
+	background-color: #101010;
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	top: -56px;
+	width: 100%;
+	transition: top 0.5s;
+}
+
+#navbar a
+{
+	color: #e5e5e5;
+	padding: 16px;
+	text-decoration: none;
+}
+
+#navbar a:hover
+{
+	background-color: #e5e5e5;
+	color: #101010;
+}
+
+#ctc
+{
+	background-color: #101010;
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	bottom: -50px;
+	width: 100%;
+	transition: bottom 0.5s;
+}
+
+#ctc p
+{
+	color: #e5e5e5;
+	padding-left: 20px;
+}
+
+div.lorem
+{
+	position: absolute;
+	width: 100px;
+	top : 0px;
+	left: 45%;
+	margin: 0px;
+}

@@ -1,0 +1,21 @@
+body
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 25px;
+	margin: 20vh;
+	background-color: #e5e5e5;
+}
+
+.icon
+{
+	width: 60px;
+	height: 50px;
+	font-size: 50px;
+	text-align: center;
+	color: #e5e5e5;
+	background-color: #252525;
+	padding: 15px;
+	border-radius: 12px;
+}
